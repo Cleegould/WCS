@@ -24,8 +24,8 @@
     </div>
 
     <div class="introduction-section gallery-container">
-        <a href="images/9E374EC0-9E7D-4602-8D67-BF5516B322A8_1_105_c.jpeg" class="gallery-item" onclick="openLightbox(this)" style="width: 150px; height: 150px; object-fit: cover;">
-            <img src="images/9E374EC0-9E7D-4602-8D67-BF5516B322A8_1_105_c.jpeg" alt="excavator at dawn getting ready to dig" class="thumbnail">
+        <a href="images/excavatoratdawn.jpeg" class="gallery-item" onclick="openLightbox(this)" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="images/excavatoratdawn.jpeg" alt="excavator at dawn getting ready to dig" class="thumbnail">
         </a>
         <a href="images/wayneafter.jpeg" class="gallery-item" onclick="openLightbox(this)" style="width: 150px; height: 150px; object-fit: cover;">
             <img src="images/wayneafter.jpeg" alt="Completed Driveway" class="thumbnail">
@@ -93,12 +93,17 @@
             <a href="https://www.facebook.com/WayneConstructionServices" target="_blank">Facebook</a>
         </div>
 
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <span class="close-btn" onclick="closeLightbox()">&times;</span>
-    <img id="lightbox-image" src="" alt="">
-</div>
-
-        <img src="images/waynesign1.png" alt="Wayne Construction Services with excavator on top">
+        <div id="lightbox" class="lightbox">
+            <span class="close-btn" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-arrows">
+                <span class="prev" onclick="plusSlides(-1, event)">&#10094;</span>
+                <span class="next" onclick="plusSlides(1, event)">&#10095;</span>
+            </div>
+        </div>
+        
+        
+    <img src="images/waynesign1.png" alt="Wayne Construction Services with excavator on top">
         <p>We are 100% committed to safety, quality, and performance. Our pledge is to establish lasting relationships with our customers by exceeding their expectations and gaining their trust through exceptional, responsive, and enthusiastic performance by every member of the construction services team.</p>
         <p class="image-credit">Image by fanjianhua on Freepik</p>
     </footer>

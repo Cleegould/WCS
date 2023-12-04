@@ -257,3 +257,24 @@ footer img {
     color: white;
     cursor: pointer;
 }
+.lightbox-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightbox-arrows span {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.lightbox-arrows .prev {
+    margin-left: 20px;
+}
+
+.lightbox-arrows .next {
+    margin-right: 20px;
+}
